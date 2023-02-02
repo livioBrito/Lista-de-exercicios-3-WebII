@@ -1,0 +1,8 @@
+import app from './Node/apirest/src/app.js'
+
+const port = process.env.PORT || 3000;
+
+
+app.listen(port, () => {
+  console.log(`Servidor escutando em http://localhost:${3000}`)
+})
